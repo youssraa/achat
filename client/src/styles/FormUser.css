@@ -1,0 +1,10 @@
+.form-us{
+    width : 80%;
+    height : 350px;
+    background : white ;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+.form-us Form {
+padding : 15px 15px 15px 15px ;
+}

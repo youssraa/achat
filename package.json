@@ -1,0 +1,38 @@
+{
+  "name": "onesize",
+  "version": "1.0.0",
+  "description": "ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  server.js",
+    "start": "concurrently \"npm run dev \" \" cd client && npm start\""
+  },
+  "keywords": [
+    "shahine"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "mongoose-findorcreate": "^3.0.0",
+    "nodemailer": "^6.6.3",
+    "normalize-url": "^5.3.1",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

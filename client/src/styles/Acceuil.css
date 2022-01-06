@@ -1,0 +1,28 @@
+body {
+    background-image: url("./images/sign.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+.form-signin {
+    background: white;
+    position :centered;
+    margin : 350px 350px 350px 350px ;
+    padding : 10px 10px 10px 10px ;
+    background: rgba(44, 57, 252, 0.5) ;
+    
+}
+.form-signin background {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+}
+.label-sign{
+    font-size: 16px;
+    color:rgb(20, 20, 224);
+    font-family: Arial, sans-serif;
+
+}

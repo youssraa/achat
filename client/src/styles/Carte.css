@@ -1,0 +1,91 @@
+
+.overlay-bleu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0275d8;
+  }
+  .menu-carte-bleu:hover .overlay-bleu {
+    opacity: 1;
+  }
+
+  .overlay-orange {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#f0ad4e;
+  }
+  .menu-carte-orange:hover .overlay-orange {
+    opacity: 1;
+  }
+
+
+  .overlay-vert {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5cb85c;
+  }
+  .menu-carte-vert:hover .overlay-vert {
+    opacity: 1;
+  }
+  .overlay-purple {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: purple;
+  }
+  .menu-carte-purple:hover .overlay-purple {
+    opacity: 1;
+  }
+  .carte{
+    padding : 25px 35px 25px 25px ; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
